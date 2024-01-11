@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'PT Sans Caption';
+    src: local('PT Sans Caption'),
+        url('@/assets/fonts/PTSans-Caption.woff2') format('woff2'),
+        url('@/assets/fonts/PTSans-Caption.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans Caption';
+    src: local('PT Sans Caption-Bold'),
+        url('@/assets/fonts/PTSans-CaptionBold.woff2') format('woff2'),
+        url('@/assets/fonts/PTSans-CaptionBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans-Regular'),
+        url('@/assets/fonts/pt-sans-regular.woff2') format('woff2'),
+        url('@/assets/fonts/PTSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat-Bold'),
+        url('@/assets/fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('@/assets/fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}

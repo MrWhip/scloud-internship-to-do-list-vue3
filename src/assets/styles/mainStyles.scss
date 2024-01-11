@@ -1,0 +1,56 @@
+@import "@/assets/styles/variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    padding-bottom: 64px;
+
+    background: $primary-light-gray;
+}
+
+footer {
+    width: 100%;
+    padding-bottom: 144px;
+
+    border-radius: 48px 48px 0px 0px;
+    background: $primary-gray;
+
+    @media (max-width: $laptop) {
+        padding-bottom: 148px;
+    }
+
+    @media (max-width: $tablet) {
+        padding-bottom: 120px;
+    }
+
+    @media (max-width: $phone) {
+        padding-bottom: 80px;
+    }
+}
+
+.container {
+    width: $laptop;
+    margin: 0 auto;
+
+    @media (max-width: $laptop) {
+        width: $tablet;
+    }
+
+    @media (max-width: $tablet) {
+        width: $phone;
+    }
+
+    @media (max-width: $phone) {
+        width: 320px;
+    }
+}
+
+@media (max-width: $tablet) {
+    .pageContainer {
+        background: $primary-light-gray;
+    }
+}
